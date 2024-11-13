@@ -1,3 +1,46 @@
 .main{
     display: flex;
+    background-color: rgb(77, 77, 77);
+    overflow: hidden;
+}
+
+#h_full{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+
+main p{
+    text-align: left;
+}
+
+main p span{
+    color: rgb(0, 162, 255);
+}
+
+main p span::before{
+    content: '<';
+}
+
+main p span::after{
+    content: '>';
+}
+
+#command-line{
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+}
+
+#command-line p{
+    margin-left: 10px;
 }
